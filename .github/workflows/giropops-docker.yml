@@ -75,7 +75,7 @@ jobs:
 
       - name: Assinar imagem com uma chave
         run: |
-          images=""results
+          images=""
           for tag in ${TAGS}; do
             images+="${tag}@${DIGEST} "
           done
